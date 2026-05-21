@@ -15,23 +15,11 @@ Drop a `.md` file. Get a slash command. That's it.
 | Command | What it does |
 |---------|--------------|
 | [`/commit`](commands/commit.md) | Stages and commits changes with an Angular-style message satisfying semantic-release conventions. Offers to push when done. |
-| [`/setup`](commands/setup.md) | Links this repo into `~/.claude/commands` on any new machine — run once, works everywhere. |
 
 ---
 
 ## Quick Start
 
-**Option A — use `/setup`**
-
-Clone this repo, open Claude Code in any project, and run:
-
-```
-/setup
-```
-
-Claude will ask for the repo path and handle the symlink.
-
-**Option B — manual**
 
 ```bash
 git clone https://github.com/daif/claude-code-commands
